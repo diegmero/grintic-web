@@ -4,14 +4,14 @@ layout: home
 hero:
   name: "GrinTic"
   text: "Soluciones Digitales"
-  tagline: Excelencia en TI para un crecimiento sostenible
+  tagline: Excelencia en IT para un crecimiento sostenible
   image:
     src: https://usc1.contabostorage.com/c6cbf9b7039e436cbe1253c0ae4e98e4:granapple/Pagina web/Logos/yo.png
     alt: GrinTic
   actions:
     - theme: brand
       text: Consultoría Gratuita
-      link: /contact
+      link: https://wa.me/573503764821?text=Hola,%20quiero%20más%20información
     - theme: alt
       text: Documentación
       link: /operaciones/contenedores/docker/instalacion
