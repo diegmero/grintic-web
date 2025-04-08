@@ -165,6 +165,8 @@ const contactMethods = [
 .contact-button:hover {
   background: var(--vp-c-brand-dark);
   transform: translateX(5px);
+  border: 1px solid;
+  border-color: var(--vp-c-brand-dark);
 }
 
 .contact-button i {
