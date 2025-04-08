@@ -3,6 +3,21 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   head: [
+
+    ['meta', { name: 'author', content: 'Diego Alejandro Romero' }],
+    ['meta', { name: 'keywords', content: 'Infraestructura IT, Gestion de IT, Soluciones IT, Desarrollo Web, Desarrollo de Aplicaciones Web, GrinTic, Software a medida, Soporte IT, Ciberseguridad Colombia, WordPress Colombia, FullStack Php' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['meta', { name: 'theme-color', content: '#0d47a1' }],
+
+    ['meta', { property: 'og:title', content: 'GrinTic - Soluciones Digitales' }],
+    ['meta', { property: 'og:description', content: 'Excelencia en IT para un Crecimiento Sostenible' }],
+    ['meta', { property: 'og:image', content: '/images/yo.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://grintic.com' }],
+
+    ['link', { rel: 'icon', href: '/images/favicon.png' }],
+
+
     [
     'link',
     {
@@ -14,9 +29,9 @@ export default defineConfig({
   title: "GrinTic | Docs",
   description: "A VitePress Site",
   themeConfig: {
-    logo: "https://img.icons8.com/?size=100&id=NkdlSUR5LFuw&format=png&color=000000",
+    logo: "images/yo.png",
     siteTitle: 'GrinTic',
-    outlineTitle: 'Contendo', // Cambia el texto aquí
+    outlineTitle: 'Contendo',
     nav: [
       { text: 'Inicio', link: '/' },
       {

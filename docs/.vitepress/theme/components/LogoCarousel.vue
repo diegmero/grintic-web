@@ -17,7 +17,7 @@ const logos = ref([
 <template>
   <div class="logo-carousel">
     <div class="container">
-      <h2 class="carousel-title">Empresas que han confiado</h2>
+      <h2 class="carousel-title">Nuestros Clientes</h2>
       <div class="logo-container">
         <div class="logo-scroll">
           <div v-for="logo in [...logos, ...logos]" :key="logo.id" class="logo-item">

@@ -4,9 +4,9 @@ layout: home
 hero:
   name: "GrinTic"
   text: "Soluciones Digitales"
-  tagline: Excelencia en IT para un crecimiento sostenible
+  tagline: Excelencia en IT para un Crecimiento Sostenible
   image:
-    src: https://usc1.contabostorage.com/c6cbf9b7039e436cbe1253c0ae4e98e4:granapple/Pagina web/Logos/yo.png
+    src: /images/yo.png
     alt: GrinTic
   actions:
     - theme: brand
