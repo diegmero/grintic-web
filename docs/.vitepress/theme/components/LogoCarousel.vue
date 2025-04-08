@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const logos = ref([
-  { id: 1, name: 'Cliente 1', image: '' },
+  { id: 1, name: 'Cliente 1', image: 'https://espacacias.com/wp-content/uploads/2023/10/Logo-Color-Separado-horizontal.png' },
   { id: 2, name: 'Cliente 2', image: 'https://www.transvalvanera.com/wp-content/uploads/2024/06/Logotipo-home-2.png' },
   { id: 3, name: 'Cliente 3', image: 'https://o4si.com/wp-content/uploads/2024/08/Logo-en-blanco1.png' },
   { id: 4, name: 'Cliente 4', image: 'https://www.glassdrive.es/sites/d10-glassdrive.es/files/styles/text_image_1200w/public/images/logo%20largo%20%281%29.png?itok=I_gEEtfJ' },

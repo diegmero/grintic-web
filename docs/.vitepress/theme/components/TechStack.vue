@@ -33,33 +33,19 @@
 
 <script setup>
 const techStacks = {
-  'Cloud & DevOps': [
-    { name: 'Google Cloud', icon: 'fab fa-google' },
-    { name: 'AWS', icon: 'fab fa-aws' },
-    { name: 'Azure', icon: 'fab fa-microsoft' },
-    { name: 'Docker', icon: 'fab fa-docker' },
-    { name: 'Kubernetes', icon: 'fas fa-dharmachakra' },
-    { name: 'Jenkins', icon: 'fab fa-jenkins' },
-    { name: 'GitLab CI', icon: 'fab fa-gitlab' }
-  ],
+
   'Backend': [
     { name: 'Node.js', icon: 'fab fa-node-js' },
     { name: 'Python', icon: 'fab fa-python' },
     { name: 'Java', icon: 'fab fa-java' },
-    { name: 'Go', icon: 'fab fa-golang' }
+    { name: 'Go', icon: 'fab fa-golang' },
+    {name: 'Laravel', icon: 'fa-brands fa-laravel'}
   ],
   'Frontend': [
     { name: 'React', icon: 'fab fa-react' },
     { name: 'Vue.js', icon: 'fab fa-vuejs' },
-    { name: 'JavaScript', icon: 'fab fa-js' },
     { name: 'Next.js', icon: 'fab fa-node-js' },
     { name: 'Tailwind CSS', icon: 'fab fa-css3' }
-  ],
-  'Herramientas': [
-    { name: 'Git', icon: 'fab fa-git-alt' },
-    { name: 'Jira', icon: 'fab fa-jira' },
-    { name: 'Prometheus', icon: 'fas fa-chart-line' },
-    { name: 'Grafana', icon: 'fas fa-chart-area' }
   ],
   'Bases de Datos': [
     { name: 'PostgreSQL', icon: 'fas fa-database' },
@@ -67,6 +53,20 @@ const techStacks = {
     { name: 'MongoDB', icon: 'fas fa-database' },
     { name: 'Redis', icon: 'fas fa-database' },
     { name: 'OracleDB', icon: 'fas fa-database' }
+  ],
+  'Herramientas': [
+    { name: 'Git', icon: 'fab fa-git-alt' },
+    { name: 'Jira', icon: 'fab fa-jira' },
+    { name: 'Prometheus', icon: 'fas fa-chart-line' },
+    { name: 'Grafana', icon: 'fas fa-chart-area' }
+  ],
+  'Cloud & DevOps': [
+    { name: 'GCP', icon: 'fab fa-google' },
+    { name: 'AWS', icon: 'fab fa-aws' },
+    { name: 'Azure', icon: 'fab fa-microsoft' },
+    { name: 'Docker', icon: 'fab fa-docker' },
+    { name: 'Kubernetes', icon: 'fas fa-dharmachakra' },
+    { name: 'Jenkins', icon: 'fab fa-jenkins' },
   ],
   'CMS': [
     { name: 'WordPress', icon: 'fab fa-wordpress' },

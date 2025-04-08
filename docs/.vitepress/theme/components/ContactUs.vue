@@ -34,22 +34,22 @@ const contactMethods = [
     name: 'WhatsApp',
     icon: 'fab fa-whatsapp',
     description: 'Respuesta inmediata para tus consultas',
-    link: 'https://wa.me/1234567890',
-    linkText: 'Chatear ahora'
+    link: 'https://wa.me/573503764821?text=Hola,%20quiero%20asesoría',
+    linkText: 'WhatsApp'
   },
   {
     name: 'Email',
     icon: 'fas fa-envelope',
     description: 'Para consultas más detalladas',
-    link: 'mailto:info@heitic.com',
+    link: 'mailto:diego@grintic.com',
     linkText: 'Enviar email'
   },
   {
     name: 'Teléfono',
     icon: 'fas fa-phone',
     description: 'Atención personalizada directa',
-    link: 'tel:+1234567890',
-    linkText: 'Llamar'
+    link: 'tel:+573503764821',
+    linkText: 'Realizar Llamada'
   }
 ]
 </script>

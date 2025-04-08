@@ -2,13 +2,11 @@
     <footer class="site-footer">
       <div class="footer-content">
         <div class="footer-section">
-          <h3>Heitic</h3>
+          <h3>GrinTic</h3>
           <p>Excelencia en TI para<br> un crecimiento sostenible</p>
           <div class="social-icons">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
         <div class="footer-section">
@@ -36,7 +34,7 @@
       </div>
     </footer>
     <div class="copy">
-        <p class="copy-text">Copyright 2025 Heitic - Desarrollado por Diego Romero</p>
+        <p class="copy-text">©GrinTic 2025 - Desarrollado por Diego Romero</p>
       </div>
   </template>
   
@@ -167,5 +165,7 @@
     justify-content: center;
     align-items: end;
     margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 600;
   }
   </style>
